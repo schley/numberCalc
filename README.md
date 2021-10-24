@@ -2,9 +2,10 @@
 
 regex and handmade parser create a number only calculator
 
-Required:  clang++ that handles compiler option std=c++20  (also tested with std=c++14)
+Required:  
 
-           Makefile (on ubuntu ==> linux> sudo apt install build-essentials )
+           1. clang++ that handles compiler option std=c++20  (also tested with std=c++14)
+           2. Makefile (on ubuntu ==> linux> sudo apt install build-essentials )
 
 Experiment with C++14 regex to create a lexer.  Code a RPN-like parser to actually calculate values ...
 
