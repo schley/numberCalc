@@ -27,4 +27,4 @@ numberCalc: 45 * (3 / 15) = 2.8
 2> exit
 
 
-No state is maintained between lines.  
+No state other than line counter for prompt is maintained between lines.  
