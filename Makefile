@@ -1,13 +1,11 @@
-# LLVM_DIR := /home/bill/hdisk/usr/local/llvm
 CPP	= clang++ 
 CPPOPTS	= -g -Wall -Wextra -pedantic -pedantic-errors -std=c++20
-CXXOPTS = # -I$(LLVM_DIR)/include  -fPIC
+CXXOPTS = 
 
 
 LINK	= clang++
-LINKOPTS= -g -Wall -Wextra -pedantic -std=c++20
-# LINKLLVM= -L$(LLVM_DIR)/lib 
-LIBS	= -lrt -ldl -lpthread -lm 
+LINKOPTS= 
+LIBS	= 
 
 
 OUT	= t6calc 
