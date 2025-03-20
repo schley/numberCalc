@@ -16,7 +16,7 @@ example:
 
 linux> make
 
-linux> ./t6calc    # test number 6 for the calc.  Change exe name in Makefile as desired
+linux> ./numberCalc      # (or if using CMake, build/numberCalc)
 
 numberCalc:  bunch of debug statements.  Will prompt to get equation ... limited error processing.
              The number on left indicates how many requests performed.
